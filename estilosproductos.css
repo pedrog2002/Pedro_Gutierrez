@@ -6,10 +6,15 @@
     padding: 10px 10PX;
     background-color: #070f22;
     border-bottom-color:white ;
-    border-bottom-style:solid ;   
+    border-bottom-style:solid ; 
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left:0 ;
 }
 .grupo-3 .small {
-    font-size: 14px;
+    font-size: 42px;
 }
 .grupo-3  a{
     display: inline-block;
@@ -44,6 +49,11 @@ nav {
     background: #a786df;
     height: 80px;
     width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 63px;
+    left: 0;
+
 }
 .enlace{
     position: absolute;
@@ -52,7 +62,6 @@ nav {
 .logo2{
     height: 61px;
     width: 190px;
-    
 }
 nav ul{
     float: right;
@@ -89,12 +98,7 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
-section{
-    background: url(IMAGENES/) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
+
 
 @media (max-width: 952px){
     .enlace{
@@ -142,6 +146,44 @@ section{
     }
 }
 /****FINALIZA MENU DE NAVEGACION****/
+
+/****INICIA CUERPO ****/
+
+section{
+    margin-top: 150px;
+    background: url(IMAGENES/2INICIO/2401034.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 1004px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****FINALIZA CUERPO ****/
 
 /****PIE DE PAGINA****/
 *{
@@ -227,3 +269,13 @@ section{
     }
 }
 /****FINALIZA PIE DE PAGINA****/
+
+.container1{
+    height: 5vh;
+    margin: 1%;
+
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
