@@ -12,7 +12,7 @@
 
 }
 .grupo-3 .small {
-    font-size: 14px;
+    font-size: 42px;
 }
 .grupo-3  a{
     display: inline-block;
@@ -48,14 +48,15 @@ nav {
     height: 80px;
     width: 100%;
 
+
 }
 .enlace{
     position: absolute;
     padding: 20px 50px;
 }
 .logo2{
-    height: 40px;
-    
+    height: 61px;
+    width: 190px;
 }
 nav ul{
     float: right;
@@ -93,7 +94,7 @@ li a.active, li a:hover{
     display: none;
 }
 section{
-    background: url(IMAGENES/1INICIO/2401034.jpg);
+    background: url(IMAGENES/2INICIO/2401034.jpg);
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80px);
