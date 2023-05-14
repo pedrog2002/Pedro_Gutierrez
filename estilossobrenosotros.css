@@ -149,13 +149,63 @@ li a.active, li a:hover{
 
 /****INICIA CUERPO ****/
 
-section{
-    margin-top: 150px;
-    background: url(IMAGENES/2INICIO/2401034.jpg);
+#bannersobre_n{
+    margin-top: 143px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(IMAGENES/5SOBRENOSOTROS/papeles-comerciales-naturaleza-muerta-varias-piezas-mecanismo.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 1004px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+#bannersobre_n h1{
+    color: white;
+    font-size: 30px;
+}
+
+.color-acento{ color:blueviolet; }
+
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+@media (min-width: 850px){
+#somos-proya .container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: center;
+}
+#somos-proya .texto{
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#somos-proya h2{
+    margin-top: 0px;
+}
+#somos-proya .img-container{
+    background-image: url("IMAGENES/5SOBRENOSOTROS/sublimado.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 400px; 
+}
+ }
+
 
 
 
@@ -238,6 +288,7 @@ section{
     text-align: center;
     transition: all 300ms ease; 
     border-radius: 10px;
+    font-size: 22px;
     
 }
 .pie-pagina .grupo-1 .red-social a:hover{
