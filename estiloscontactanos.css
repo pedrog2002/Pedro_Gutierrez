@@ -171,6 +171,86 @@ li a.active, li a:hover{
 }
 
 
+/*SECCION PRICIPAL*/
+.container{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-areas:'mapa informacion';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /*border: solid 4px #000000;*/
+    }
+.caja{
+    background-color: lightgray;
+    text-align: center;
+    /*border: solid 1px #000000;*/
+    }
+    .c1 {
+    grid-area: mapa;
+    background-color: white;
+    padding-left: 150px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+        }
+    .c2{
+    grid-area: informacion;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: initial;
+    }
+
+    @media all and (max-width: 858px){
+        .container{
+            grid-template-areas:'informacion'
+                                'mapa';
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            /*border: solid 4px #000000*/
+            } 
+            .c1 {
+                grid-area: mapa;
+                background-color: white;
+                padding: 20px;
+                    }
+                .c2{
+                grid-area: informacion;
+                background-color: white;
+                text-align: center;
+                padding: 20px;
+                }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TERMINA SECCION PRICIPAL*/
+
+
+
 
 
 
