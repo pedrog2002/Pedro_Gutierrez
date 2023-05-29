@@ -156,7 +156,7 @@ li a.active, li a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(IMAGENES/5SOBRENOSOTROS/papeles-comerciales-naturaleza-muerta-varias-piezas-mecanismo.jpg);
+    ,url(IMAGENES/5SOBRENOSOTROS/banner_.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -178,30 +178,71 @@ li a.active, li a:hover{
     display: grid;
     grid-template-areas:   'IMAGEN1 QUIENESSOMOS '
                             'MISIONVISION IMAGEN2';
-    grid-template-rows: 500px 500px ;
-    border: 1px solid black;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    
     }
 .caja{
-    border: 4px solid black;
     background-color: lightgray;
     text-align: center;
-    
+    /*border: solid 1px #000000;*/
     }
     .c1 {
     grid-area: IMAGEN1;
     background-color: white;
+    padding-left: 150px;
+    padding-right: 10px;
+    padding-top: 100px ;
+    padding-bottom: 100px;
         }
-    .c2 {
+    .img-1{
+        background-image: url(IMAGENES/5SOBRENOSOTROS/sublimado.jpg);
+        width: auto;
+        height: 400px;
+        background-size: cover;
+        background-position: center center;
+    }
+    .c2{
     grid-area: QUIENESSOMOS;
     background-color: white;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    .c2 h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .c2 p{
+        line-height: 25px;
     }
     .c3{
     grid-area: MISIONVISION;
-    background-color: white;
+    background-color: #222222;
+    padding: 100px;
+    text-align: justify;
+    }
+    .c3 p{
+        color: #ffffff;
+        line-height: 30px;
+    }
+    .c3 h2 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 36px;
     }
     .c4{
     grid-area: IMAGEN2;
     background-color: white;
+    }
+    .img-2{
+        background-image: url(IMAGENES/5SOBRENOSOTROS/apreton_de_manos.jpg);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 100%;
     }
 
     @media all and (max-width: 858px){
@@ -210,9 +251,37 @@ li a.active, li a:hover{
                                  'IMAGEN1'
                                  'MISIONVISION'
                                  'IMAGEN2';
-            grid-template-rows:  auto auto auto auto;
+            grid-template-rows:  auto;
+            grid-template-columns: 1fr;
             }
-        
+                .c1{
+                    padding: 50px;
+                }
+                .img-1{
+                    background-image: url(IMAGENES/5SOBRENOSOTROS/sublimado.jpg);
+                    width: auto;
+                    height: 400px;
+                    background-size: cover;
+                }
+                .c2{
+                    grid-area: QUIENESSOMOS;
+                    background-color: white;
+                    text-align: justify;
+                    padding: 50px;
+                    }
+                    .c3{
+                        grid-area: MISIONVISION;
+                        background-color: #222222;
+                        padding: 50px;
+                        text-align: justify;
+                        }
+                    .img-2{
+                        background-image: url(IMAGENES/5SOBRENOSOTROS/apreton_de_manos.jpg);
+                        width: auto;
+                        height: 400px;
+                        background-size: cover;
+                        background-position: center center;
+                    }
     }
   /*termina seccion principal*/
 
