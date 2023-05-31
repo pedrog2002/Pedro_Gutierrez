@@ -159,7 +159,7 @@ li a.active, li a:hover{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center ;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
