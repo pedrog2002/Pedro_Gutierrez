@@ -264,20 +264,235 @@ button:hover{
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*TERMINA 2dA SECCION*/
+/*3 SECCION*/
+.container{
+    display: grid;
+    grid-template-areas:'imagen informacion';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /*border: solid 4px #000000;*/
+    }
+.caja{
+    text-align: justify;
+    /*border: solid 1px #000000;*/
+    }
+    .c1 {
+    grid-area: imagen;
+    background-color:#fad9b93f;
+    padding-left: 20%;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-basis: 50%;
+        }
+    .c1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .c2{
+    grid-area: informacion;
+    background-color:#fad9b93f;
+    padding-left: 30px;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: initial;
+    flex-basis: 50%;
+    }
+    .c2 .informacion{
+        font-size: 15px;
+        text-align: initial;
+        margin-bottom: 30px;
+        line-height: 30px;
+  }
 
+    .c2 h2{
+        font-size: 38px;
+        font-weight: 700;
+        margin-bottom: 18px;
+        line-height: 50px;
+        color: rgb(185, 221, 25);
+    }
+    .c2 h3{
+        line-height: 50px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .c2 h4{
+        line-height: 50px;
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+
+    @media all and (max-width: 858px){
+        .container{
+            grid-template-areas:'imagen'
+                                'informacion';
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            /*border: solid 4px #000000*/
+            } 
+            .c1 {
+                grid-area: imagen;
+                padding: 5%;
+                flex-basis: 100%;
+                    }
+                    .c1 img{
+                        width: 100%;
+                        height: 370px;
+                    }
+                .c2{
+                grid-area: informacion;
+                text-align: initial;
+                padding: 5%;
+                flex-basis: 100%;
+                }
+    }
+        .boton1 button{
+            border-radius: 6px;
+            border: 0px;
+            background-color:#e03e3e;
+            width: 170px;
+            padding: 10px 20px;
+        }
+        button:hover{
+            background-color:#ff0000;
+        }
+/*TERMINA 3 SECCION*/
+/*4 SECCION*/
+#bannercontact{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(IMAGENES/2INICIO/primer-plano-mujer-negocios-mano-escribiendo-teclado-portatil-m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#bannercontact h1{
+    color: white;
+    font-size: 30px;
+}
+@media all and (max-width: 1000px){
+    #bannercontact h1{
+        text-align: center;
+    }
+}
+
+/*TERMINA 4 SECCION*/
+
+/*5 SECCION*/
+
+.container2{
+    display: grid;
+    grid-template-areas:  'DISTINGUE IMAGEN3';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    }
+.caja2{
+    text-align: center;
+    /*border: solid 1px #000000;*/
+    }
+    .c3 {
+        grid-area: IMAGEN3;
+            }
+        .img-3{
+            background-image: url(IMAGENES/2INICIO/taza.png);
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+        }
+        .c4{
+        grid-area: DISTINGUE;
+        text-align: justify;
+        padding: 85px;
+        padding-top: 0;
+        }
+        .c4 h2{
+            font-size: 29px;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color:  rgb(185, 221, 25);
+        }
+        .c4 h3{
+            font-size: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #000000c5;
+        }
+        .c4 p{
+            line-height: 25px;
+        }
+        @media all and (max-width: 858px){
+            .container2{
+                grid-template-areas: 'DISTINGUE';
+                grid-template-rows:  auto;
+                grid-template-columns: 1fr;
+                }
+                .c4{
+                    grid-area: DISTINGUE;
+                    text-align: justify;
+                    padding: 20px;
+                    }
+                    .c4 h2{
+                        font-size: 36px;
+                        text-align: center;
+                    }
+                    .c4 p{
+                        line-height: 25px;
+                    }
+        }
+
+/*TERMINA 5 SECCION*/
+/*6 SECCION*/
+    .container3{
+        background-color: whitesmoke;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .container3 h2{
+        font-size: 35px;
+        color:  rgb(185, 221, 25);
+        padding-bottom: 30px;
+    }
+    .container3 h3{
+        font-size: 20px;
+        padding-bottom: 0;
+    }
+    .container3 img{
+        width: 30%;
+        height: 20%;
+        vertical-align: top;
+    }
+    @media all and (max-width: 858px){
+
+        .container3 h2{
+            font-size: 35px;
+            color:  rgb(185, 221, 25);
+            padding-bottom: 30px;
+        }
+        .container3 h3{
+            font-size: 20px;
+            padding: 20px;
+        }
+        .container3 img{
+            width: 70%;
+            height: 70%;
+        }
+    }
+
+/*TERMINA 6 SECCION*/
 
 
 
