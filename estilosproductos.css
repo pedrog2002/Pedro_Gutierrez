@@ -161,6 +161,111 @@ li a.active, li a:hover{
 
 /****FINALIZA CUERPO ****/
 
+/*seccion principal*/
+
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.column {
+    width: 26%;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.product {
+    padding: 10px;
+    background-color:whitesmoke;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.712);
+    border-radius: 10px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+img:hover{
+    transition: all 0.5s ease;
+}
+.product h2 {
+    color:black;
+    padding: 15px;
+}
+.product p {
+    color:black;
+    padding: 20px;
+    font-weight: 500;
+    background-color: #c9d4fda9;
+    border-radius: 5px;
+}
+.product h3{
+    background-color: #4133B7;
+    color: white;
+    width: 95%;
+    height: 35px;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 5px;
+}
+.product h3:hover{
+    background-color: #2e1ae0;
+}
+
+@media (max-width: 768px) {
+    .column {
+        width: 48%;
+    }
+}
+@media (max-width: 480px) {
+    .column {
+        width: 100%;
+    }
+}
+/*termina seccion principal*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /****PIE DE PAGINA****/
 *{
     font-family: 'Concert One', cursive;
