@@ -28,7 +28,6 @@
     text-align: center;
     transition: all 300ms ease; 
     border-radius: 8px;
-    
 }
 .grupo-3 a:hover{
     color: #a786df;
@@ -44,7 +43,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 nav {
     background: #a786df;
     height: 80px;
@@ -53,7 +51,6 @@ nav {
     z-index: 9999;
     top: 63px;
     left: 0;
-
 }
 .enlace{
     position: absolute;
@@ -80,7 +77,6 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
-
 li a.active, li a:hover{
     background: #ffd803;
     color: #000000;
@@ -98,8 +94,6 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
-
-
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
@@ -108,7 +102,6 @@ li a.active, li a:hover{
         font-size: 16px;
     }
 }
-
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -121,7 +114,6 @@ li a.active, li a:hover{
         top: 146px;
         right: -100%;
         text-align: center;
-
         margin: 0 15px 0 0;
         transition: all .5s;
     }
@@ -129,12 +121,10 @@ li a.active, li a:hover{
         display: block;
         margin: 50px 0;
         line-height: 30px;
-        
     }
     nav ul li a{
         font-size: 20px;
         font-weight: bold;
-        
     }
     li a:hover, li a.active{
         background:#ffd803;
@@ -213,6 +203,7 @@ button:hover{
     }
 
 /*TERMINA 1RA SECCION*/
+
 /*2DA SECCION*/
 
 .grid-container {
@@ -226,7 +217,6 @@ button:hover{
     padding-right: 70px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
   }
   .grid-container img {
     width: auto;
@@ -263,9 +253,10 @@ button:hover{
       }
   }
   
-
 /*TERMINA 2dA SECCION*/
+
 /*3 SECCION*/
+
 .container{
     display: grid;
     grid-template-areas:'imagen informacion';
@@ -285,7 +276,7 @@ button:hover{
     padding-top: 50px;
     padding-bottom: 50px;
     flex-basis: 50%;
-        }
+    }
     .c1 img{
         width: 100%;
         height: 100%;
@@ -306,7 +297,6 @@ button:hover{
         margin-bottom: 30px;
         line-height: 30px;
   }
-
     .c2 h2{
         font-size: 38px;
         font-weight: 700;
@@ -324,8 +314,6 @@ button:hover{
         font-size: 27px;
         font-weight: 600;
     }
-
-
     @media all and (max-width: 858px){
         .container{
             grid-template-areas:'imagen'
@@ -476,7 +464,6 @@ button:hover{
         vertical-align: top;
     }
     @media all and (max-width: 858px){
-
         .container3 h2{
             font-size: 35px;
             color:  rgb(185, 221, 25);
@@ -493,28 +480,6 @@ button:hover{
     }
 
 /*TERMINA 6 SECCION*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /****FINALIZA CUERPO ****/
 
@@ -572,7 +537,6 @@ button:hover{
     transition: all 300ms ease; 
     border-radius: 10px;
     font-size: 22px;
-
     
 }
 .pie-pagina .grupo-1 .red-social a:hover{
@@ -580,7 +544,6 @@ button:hover{
 }
 
 .pie-pagina .grupo-2{
-    
     color: #fffffe;
     text-align: center;
     padding: 20px 20px;
@@ -590,9 +553,7 @@ button:hover{
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
-    
 }
-    
 @media screen and (max-width:800px){
 
     .pie-pagina .grupo-1{

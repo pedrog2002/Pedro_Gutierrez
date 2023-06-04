@@ -44,7 +44,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 nav {
     background: #a786df;
     height: 80px;
@@ -53,7 +52,6 @@ nav {
     z-index: 9999;
     top: 63px;
     left: 0;
-
 }
 .enlace{
     position: absolute;
@@ -80,7 +78,6 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
-
 li a.active, li a:hover{
     background: #ffd803;
     color: #000000;
@@ -98,8 +95,6 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
-
-
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
@@ -108,7 +103,6 @@ li a.active, li a:hover{
         font-size: 16px;
     }
 }
-
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -121,7 +115,6 @@ li a.active, li a:hover{
         top: 146px;
         right: -100%;
         text-align: center;
-
         margin: 0 15px 0 0;
         transition: all .5s;
     }
@@ -129,12 +122,10 @@ li a.active, li a:hover{
         display: block;
         margin: 50px 0;
         line-height: 30px;
-        
     }
     nav ul li a{
         font-size: 20px;
         font-weight: bold;
-        
     }
     li a:hover, li a.active{
         background:#ffd803;
@@ -169,7 +160,6 @@ li a.active, li a:hover{
     color: white;
     font-size: 30px;
 }
-
 
 /*SECCION PRICIPAL*/
 .container{
@@ -282,19 +272,7 @@ li a.active, li a:hover{
                     height: 55px;
                 } 
     }
-
-
-
-
-
-
-
-
-
-
 /*TERMINA SECCION PRICIPAL*/
-
-
 
 /****FINALIZA CUERPO ****/
 
@@ -351,14 +329,11 @@ li a.active, li a:hover{
     transition: all 300ms ease; 
     border-radius: 10px;
     font-size: 22px;
-    
 }
 .pie-pagina .grupo-1 .red-social a:hover{
     color: #a786df;
 }
-
 .pie-pagina .grupo-2{
-    
     color: #fffffe;
     text-align: center;
     padding: 20px 20px;
@@ -368,11 +343,8 @@ li a.active, li a:hover{
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
-    
 }
-    
 @media screen and (max-width:800px){
-
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
