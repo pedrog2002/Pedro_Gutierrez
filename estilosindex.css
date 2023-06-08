@@ -286,11 +286,11 @@ button:hover{
         line-height: 30px;
   }
     .c2 h2{
-        font-size: 38px;
-        font-weight: 700;
+        font-size: 45px;
+        font-weight: 900 ;
         margin-bottom: 18px;
         line-height: 50px;
-        color: rgb(185, 221, 25);
+        color:#03277c;
     }
     .c2 h3{
         line-height: 50px;
@@ -299,7 +299,7 @@ button:hover{
     }
     .c2 h4{
         line-height: 50px;
-        font-size: 27px;
+        font-size: 23px;
         font-weight: 600;
     }
     @media all and (max-width: 858px){
@@ -392,11 +392,11 @@ button:hover{
         padding-top: 0;
         }
         .c4 h2{
-            font-size: 29px;
+            font-size: 32px;
             text-align: center;
             padding-top: 50px;
             padding-bottom: 40px;
-            color:  rgb(185, 221, 25);
+            color: black;
         }
         .c4 h3{
             font-size: 20px;
@@ -435,7 +435,7 @@ button:hover{
     }
     .container3 h2{
         font-size: 35px;
-        color:  rgb(185, 221, 25);
+        color: blueviolet;
         padding-bottom: 30px;
     }
     .container3 h3{
@@ -450,7 +450,7 @@ button:hover{
     @media all and (max-width: 858px){
         .container3 h2{
             font-size: 35px;
-            color:  rgb(185, 221, 25);
+            color: blueviolet;
             padding-bottom: 30px;
         }
         .container3 h3{
