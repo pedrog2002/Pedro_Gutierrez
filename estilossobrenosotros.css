@@ -242,10 +242,8 @@ li a.active, li a:hover{
                     padding: 50px;
                 }
                 .img-1{
-                    background-image: url(IMAGENES/5SOBRENOSOTROS/sublimado.jpg);
                     width: auto;
                     height: 400px;
-                    background-size: cover;
                 }
                 .c2{
                     grid-area: QUIENESSOMOS;
@@ -260,11 +258,8 @@ li a.active, li a:hover{
                         text-align: justify;
                         }
                     .img-2{
-                        background-image: url(IMAGENES/5SOBRENOSOTROS/apreton_de_manos.jpg);
                         width: auto;
                         height: 400px;
-                        background-size: cover;
-                        background-position: center center;
                     }
     }
   /*termina seccion principal*/
