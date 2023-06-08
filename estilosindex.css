@@ -150,7 +150,7 @@ li a.active, li a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("IMAGENES/2INICIO/tres.jpg");
+    ,url("IMAGENES.WEBP/2INICIO/fondoinicio.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -356,7 +356,7 @@ button:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(IMAGENES/2INICIO/primer-plano-mujer-negocios-mano-escribiendo-teclado-portatil-m.jpg);
+    ,url(IMAGENES.WEBP/2INICIO/contactoinicio.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -394,7 +394,7 @@ button:hover{
         grid-area: IMAGEN3;
             }
         .img-3{
-            background-image: url(IMAGENES/2INICIO/taza.png);
+            background-image: url(IMAGENES.WEBP/2INICIO/taza.webp);
             background-size: cover;
             background-position: center center;
             width: 100%;
