@@ -28,15 +28,12 @@
     text-align: center;
     transition: all 300ms ease; 
     border-radius: 8px;
-    
 }
 .grupo-3 a:hover{
     color: #a786df;
 }
 /****FINALIZA BARRA SUPERIOR DE INFORMACION****/
-
 /****MENU DE NAVEGACION****/
-
 *{
     padding: 0;
     margin: 0;
@@ -137,9 +134,7 @@ li a.active, li a:hover{
     }
 }
 /****FINALIZA MENU DE NAVEGACION****/
-
 /****INICIA CUERPO ****/
-
 #bannercontacto{
     margin-top: 143px;
     background-image: linear-gradient(
@@ -160,7 +155,6 @@ li a.active, li a:hover{
     color: white;
     font-size: 30px;
 }
-
 /*SECCION PRICIPAL*/
 .container{
     background-color: rgb(102, 255, 0);
@@ -273,9 +267,7 @@ li a.active, li a:hover{
                 } 
     }
 /*TERMINA SECCION PRICIPAL*/
-
 /****FINALIZA CUERPO ****/
-
 /****PIE DE PAGINA****/
 *{
     font-family: 'Concert One', cursive;

@@ -33,9 +33,7 @@
     color: #a786df;
 }
 /****FINALIZA BARRA SUPERIOR DE INFORMACION****/
-
 /****MENU DE NAVEGACION****/
-
 *{
     padding: 0;
     margin: 0;
@@ -136,7 +134,6 @@ li a.active, li a:hover{
     }
 }
 /****FINALIZA MENU DE NAVEGACION****/
-
 /****INICIA CUERPO ****/
 #bannerproductos{
     margin-top: 143px;
@@ -158,11 +155,8 @@ li a.active, li a:hover{
     color: white;
     font-size: 30px;
 }
-
 /****FINALIZA CUERPO ****/
-
 /*seccion principal*/
-
 * {
     box-sizing: border-box;
 }
@@ -170,7 +164,6 @@ li a.active, li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 .column {
     width: 26%;
