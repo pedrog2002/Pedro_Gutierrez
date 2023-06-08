@@ -222,14 +222,14 @@ img:hover{
     background-color: #2e1ae0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .column {
-        width: 48%;
+        width: 35%;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 690px) {
     .column {
-        width: 100%;
+        width: 70%;
     }
 }
 /*termina seccion principal*/
