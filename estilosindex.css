@@ -191,7 +191,6 @@ button:hover{
         flex-wrap: wrap;
         justify-content: center;
       }
-      
       .botones {
         flex-basis: 50%;
       }
@@ -228,7 +227,6 @@ button:hover{
   .grid-item { 
     text-align: center;
     padding-top: 20px;
-    /*border: 2px solid black;*/
   }
   @media (max-width: 768px) {
     .grid-container {
@@ -250,11 +248,9 @@ button:hover{
     grid-template-areas:'imagen informacion';
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    /*border: solid 4px #000000;*/
     }
 .caja{
     text-align: justify;
-    /*border: solid 1px #000000;*/
     }
     .c1 {
     grid-area: imagen;
@@ -308,7 +304,6 @@ button:hover{
                                 'informacion';
             grid-template-columns: 1fr;
             grid-template-rows: auto;
-            /*border: solid 4px #000000*/
             } 
             .c1 {
                 grid-area: imagen;
@@ -474,7 +469,6 @@ button:hover{
     height:100%;
     width: 100%;
     background-color: #a786df;
-
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -486,7 +480,6 @@ button:hover{
     padding: 45px 0px;
 }
 .pie-pagina .grupo-1 .box figure{
-    
     height: 100%;
     display: flex;
     justify-content: center;
@@ -518,12 +511,10 @@ button:hover{
     transition: all 300ms ease; 
     border-radius: 10px;
     font-size: 22px;
-    
 }
 .pie-pagina .grupo-1 .red-social a:hover{
     color: #a786df;
 }
-
 .pie-pagina .grupo-2{
     color: #fffffe;
     text-align: center;
@@ -536,7 +527,6 @@ button:hover{
     font-size: 15px;
 }
 @media screen and (max-width:800px){
-
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
@@ -545,6 +535,6 @@ button:hover{
         text-align: center;
     }
 }
-/****FINALIZA PIE DE PAGINA****/
+
 
 
